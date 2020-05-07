@@ -4,15 +4,16 @@
 
 print("Hello and Welcome")
 import time
+time.sleep(2)
 print("This is laughter challengen interraction")
-time.sleep(1)
+time.sleep(2)
 
 print("Just getting ready...")
 
 print("Loading.0%")
-time.sleep(1)
-print("Loading..65%")
 time.sleep(2)
+print("Loading..65%")
+time.sleep(3)
 print("Loading...99%")
 time.sleep(2)
 
@@ -30,7 +31,7 @@ time.sleep(3)
 
 age = int(input("Please enter your age here:"))
 
-time.sleep(2)
+time.sleep(3)
 
 if age > 25:
     print("WOW! That is even more than I can count. You are very very old my friend, Sorry!")
@@ -40,7 +41,7 @@ else:
 time.sleep(2)
 
 print("Soooo, what do you do for living?")
-time.sleep(1)
+time.sleep(2)
 answer2 = input("Please type your answer here:")
 time.sleep(2)
 
