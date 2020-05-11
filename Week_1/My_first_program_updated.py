@@ -2,18 +2,17 @@
 ##02 May 2020
 ##This is my first program 
 
-print("Hello and Welcome")
+print("Hello!")
 import time
-time.sleep(2)
 print("This is laughter challengen interraction")
-time.sleep(2)
+time.sleep(1)
 
 print("Just getting ready...")
 
 print("Loading.0%")
-time.sleep(2)
+time.sleep(1)
 print("Loading..65%")
-time.sleep(3)
+time.sleep(2)
 print("Loading...99%")
 time.sleep(2)
 
@@ -31,7 +30,7 @@ time.sleep(3)
 
 age = int(input("Please enter your age here:"))
 
-time.sleep(3)
+time.sleep(2)
 
 if age > 25:
     print("WOW! That is even more than I can count. You are very very old my friend, Sorry!")
@@ -41,14 +40,14 @@ else:
 time.sleep(2)
 
 print("Soooo, what do you do for living?")
-time.sleep(2)
-answer2 = input("Please type your answer here:")
-time.sleep(2)
-
-print("Hmm, I haven't meet someone who is {answer2}, interesting line of work.")
+time.sleep(1)
+answer2 = str(input("Please type your answer here:"))
 time.sleep(2)
 
-print(f"{answer1} let me tell you what i am going to do for you today!")
+print(f"Hmm, I haven't meet someone who is {answer2}, interesting line of work.")
+time.sleep(2)
+
+print(f"{answer1} let me tell you what I am going to do for you today!")
       
 time.sleep(2)
 print("I am going to make a deal with you")
@@ -58,28 +57,29 @@ time.sleep(3)
 
 print("Otherwise, I will buy you pizza! I hope you are ready!")
       
-time.sleep(2)
+time.sleep(4)
       
 print('A child asked his father, "How were people born?" So his father said, "Adam and Eve made babies, then their babies became adults and made babies, and so on." The  child then went to his mother, asked her the same question and she told him, "We were monkeys then we evolved to become like we are now." The child ran back to his father and said, "You lied to me!" His father replied, "No, your mom was talking about her side of the family.')
 
 time.sleep(7)
 
-joke_1 = input("Did you laugh: ")
+joke_1 = str(input("Did you laugh: "))
       
-if joke_1 == yes:
+if joke_1 in ['y', 'Y', 'yes', 'Yes', 'YES']:
     print("Nailed it!")
 else:
-    print("I still have one more go.")
+    print("No problems, I still have one more go.")
       
 time.sleep(2)
       
 print('Long time ago, people who sacrifice their sleep, family, food, laughter and other joys of life were called SAINTS.')
-time.sleep(1)
+time.sleep(2)
 print('But now, they are called IT professionals!')
+
+time.sleep(2)
+joke_2 = str(input("Did you laugh: "))
       
-joke_2 = input("Did you laugh: ")
-      
-if joke_2 == yes:
+if joke_2 in ['y', 'Y', 'yes', 'Yes', 'YES']:
     print("Nailed it again!")
 else:
     print("Hmm, I wounder WHY?")
@@ -90,6 +90,7 @@ print("As per our deal you now have to but me Single Malt Extra Oil Martini for 
 time.sleep(3)
       
 print('Hope you ENJOYED it, see you soon again')
+time.sleep(2)
 #answer3 = input("Please type your answer here")
 
 
