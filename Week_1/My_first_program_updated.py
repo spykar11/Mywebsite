@@ -4,11 +4,12 @@
 
 print("Hello!")
 import time
+time.sleep(1)
 print("This is laughter challengen interraction")
 time.sleep(1)
 
 print("Just getting ready...")
-
+time.sleep(1)
 print("Loading.0%")
 time.sleep(1)
 print("Loading..65%")
@@ -17,16 +18,17 @@ print("Loading...99%")
 time.sleep(2)
 
 
-print("My name is Robo")
+print("My name is Robo. What is your name?")
 time.sleep(2)
 
-answer1 = input("What is your name?")
+answer1 = input("Please type your name here:")
 time.sleep(2)
 print(f"Welcome {answer1}, It is a pleasure to meet you!")
 
 time.sleep(2)
-print("Lets get to know each other. I was just born last night, How old are you?")
-time.sleep(3)
+print("Lets get to know each other bit more.") 
+print("I was just born a week ago, How old are you?")
+time.sleep(2)
 
 age = int(input("Please enter your age here:"))
 
@@ -52,14 +54,14 @@ print(f"{answer1} let me tell you what I am going to do for you today!")
 time.sleep(2)
 print("I am going to make a deal with you")
 time.sleep(3)
-print("I am going to tell you 2 jokes, and if you laugh on any of my jokes you are going to buy me a Single Malt Oil Martini for my parts")
+print("\n I am going to tell you 2 jokes, and if you laugh on any of my jokes you are going \n to buy me a Single Malt Oil Martini for my parts")
 time.sleep(3)
 
 print("Otherwise, I will buy you pizza! I hope you are ready!")
       
 time.sleep(4)
       
-print('A child asked his father, "How were people born?" So his father said, "Adam and Eve made babies, then their babies became adults and made babies, and so on.\n " The  child then went to his mother, asked her the same question and she told him, "We were monkeys then we evolved to become like we are now.\n" The child ran back to his father and said, "You lied to me!" His father replied, "No, your mom was talking about her side of the family.')
+print('\nA child asked his father, "How were people born?" So his father said, "Adam and Eve made babies,\n then their babies became adults and made babies, and so on. " The  child then went to his mother,\n asked her the same question and she told him, "We were monkeys then we evolved to become like we are now."\n The child ran back to his father and said, "You lied to me!" \n His father replied, "No, your mom was talking about her side of the family.')
 
 time.sleep(7)
 
@@ -82,17 +84,16 @@ time.sleep(2)
 joke_2 = str(input("Did you laugh: "))
       
 if joke_2 in ['y', 'Y', 'yes', 'Yes', 'YES']:
-    joke_2 == joke_1
-    print("Nailed it again!")
-elif joke_1 in ['N', 'No', 'n', 'NO']:
-    print("test")
+    print("I told you i was funny!!!")
+#elif joke_1 in ['N', 'No', 'n', 'NO']:
+#    print("test")
 else:
     print("Hmm, I wounder WHY?")
       
-time.sleep(3)
+time.sleep(2)
       
 print("As per our deal you now have to but me Single Malt Extra Oil Martini for my parts.")
-time.sleep(3)
+time.sleep(2)
       
 print('Hope you ENJOYED it, see you soon again')
 time.sleep(2)
