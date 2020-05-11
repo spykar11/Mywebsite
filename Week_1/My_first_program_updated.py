@@ -59,7 +59,7 @@ print("Otherwise, I will buy you pizza! I hope you are ready!")
       
 time.sleep(4)
       
-print('A child asked his father, "How were people born?" So his father said, "Adam and Eve made babies, then their babies became adults and made babies, and so on." The  child then went to his mother, asked her the same question and she told him, "We were monkeys then we evolved to become like we are now." The child ran back to his father and said, "You lied to me!" His father replied, "No, your mom was talking about her side of the family.')
+print('A child asked his father, "How were people born?" So his father said, "Adam and Eve made babies, then their babies became adults and made babies, and so on.\n " The  child then went to his mother, asked her the same question and she told him, "We were monkeys then we evolved to become like we are now.\n" The child ran back to his father and said, "You lied to me!" His father replied, "No, your mom was talking about her side of the family.')
 
 time.sleep(7)
 
@@ -68,9 +68,11 @@ joke_1 = str(input("Did you laugh: "))
 if joke_1 in ['y', 'Y', 'yes', 'Yes', 'YES']:
     print("Nailed it!")
 else:
-    print("No problems, I still have one more go.")
+    print("No problem, I still have one more go.")
       
 time.sleep(2)
+print('Ready for another one...')
+time.sleep(1)
       
 print('Long time ago, people who sacrifice their sleep, family, food, laughter and other joys of life were called SAINTS.')
 time.sleep(2)
@@ -80,7 +82,10 @@ time.sleep(2)
 joke_2 = str(input("Did you laugh: "))
       
 if joke_2 in ['y', 'Y', 'yes', 'Yes', 'YES']:
+    joke_2 == joke_1
     print("Nailed it again!")
+elif joke_1 in ['N', 'No', 'n', 'NO']:
+    print("test")
 else:
     print("Hmm, I wounder WHY?")
       
